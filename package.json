@@ -1,0 +1,23 @@
+{
+  "name": "projeto_completo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "magrininicolas <magrininicolas@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^22.5.5",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.3"
+  },
+  "repository": "git@github.com:nicolasgmp/api-typescript.git"
+}
